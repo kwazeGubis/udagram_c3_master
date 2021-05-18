@@ -1,0 +1,3 @@
+[submodule "udagram-c3-frontend"]
+	path = udagram-c3-frontend
+	url = https://github.com/kwazegubis/udagram-c3-frontend.git
