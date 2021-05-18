@@ -1,3 +1,9 @@
 [submodule "udagram-c3-frontend"]
 	path = udagram-c3-frontend
 	url = https://github.com/kwazegubis/udagram-c3-frontend.git
+[submodule "udagram-api-users"]
+	path = udagram-api-users
+	url = https://github.com/kwazegubis/udagram-api-users.git
+[submodule "udagram-api-feeds"]
+	path = udagram-api-feeds
+	url = https://github.com/kwazegubis/udagram-api-feeds.git
