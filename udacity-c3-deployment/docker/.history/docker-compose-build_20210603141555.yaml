@@ -1,0 +1,18 @@
+version: "3"
+services:
+  reverseproxy:
+    build:
+      context: .
+    image: scheele/reverseproxy 
+  backend_user:
+    build:
+      context: ../../udagram-api-users
+    image: kwazegubis/user
+  backend_feed:
+    build:
+      context: ../../udagram-api-feeds  
+    image: kwazegubis/feed
+  frontend:
+    build:
+      context: ../../udagram-c3-frontend  
+    image: kwazegubis/frontend
